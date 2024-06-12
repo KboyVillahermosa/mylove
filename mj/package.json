@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/KboyVillahermosa/mylove.git",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,10 +11,7 @@
     "format:check": "prettier . --check",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "tsc --noEmit",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "clean": "gh-pages-clean"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "firebase": "^10.12.2",
@@ -41,5 +37,4 @@
     "typescript": "^5.4.2",
     "vite": "^5.2.0"
   }
-  
 }

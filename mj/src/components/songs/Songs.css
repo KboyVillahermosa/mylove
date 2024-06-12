@@ -27,3 +27,8 @@
     width: 100%;
     max-width: 1000px;
 }
+.vid{
+    width: 100%;
+    max-width: 500px;
+    height: 50vh;
+}
